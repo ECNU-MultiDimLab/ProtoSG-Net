@@ -114,9 +114,7 @@ def save_full_prototypes(fused_prototypes, sim_matrix, save_path):
     print(f"✔ Saved to {save_path}")
 
 
-# ============================================================
-# 6. 主程序
-# ============================================================
+
 if __name__ == "__main__":
     prototypes_dir = "./TCGA-NSCLC/slide_prototypes"
     json_path = "./text/nsclc_coarse.json"
