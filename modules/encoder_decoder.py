@@ -391,15 +391,10 @@ class EncoderDecoder(AttModel):
         Returns:
             patch_scores: [batch_size, patch_num]
         """
-        # L2 归一化 patch 特征和 prototype 特征
         att_feats_norm = F.normalize(att_feats, p=2, dim=-1)  # [B, N, D]
         prototypes_768 = self.prototype_proj(self.prototypes)
         prototypes_norm = F.normalize(prototypes_768, p=2, dim=-1)  # [P, D]
-
-        # 计算余弦相似度
         similarity = torch.matmul(att_feats_norm, prototypes_norm.T)  # [B, N, P]
-
-        # 对每个 patch 取最大相似度作为该 patch 的得分
         patch_scores, _ = similarity.max(dim=-1)  # [B, N]
 
         return patch_scores
