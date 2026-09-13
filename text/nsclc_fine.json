@@ -1,0 +1,35 @@
+{
+    "TCGA-NSCLC": [
+        "The overall differentiation and maturity of cells within the tissue is high.",
+        "The overall differentiation and maturity of cells within the tissue is moderate.",
+        "The overall differentiation and maturity of cells within the tissue is low.",
+
+        "Tissue structures are widely distributed, covering a large area.",
+        "Tissue structures are moderately distributed, covering a medium area.",
+        "Tissue structures are limited in distribution, covering a small area.",
+
+        "Tissue boundaries are very clear, with distinct demarcation from surrounding structures.",
+        "Tissue boundaries are moderately clear, with intermediate demarcation from surrounding structures.",
+        "Tissue boundaries are blurred, with unclear demarcation from surrounding structures.",
+
+        "Morphological characteristics of cell nuclei and cytoplasm are prominent, with consistent size, shape, and staining.",
+        "Morphological characteristics of cell nuclei and cytoplasm are moderate, with intermediate size, shape, and staining.",
+        "Morphological characteristics of cell nuclei and cytoplasm are subtle, with variable size, shape, and staining.",
+
+        "Cells within the tissue are actively proliferating, with frequent division.",
+        "Cells within the tissue are moderately proliferating, with occasional division.",
+        "Cells within the tissue have low proliferation, with rare division.",
+
+        "There are prominent areas of degeneration, necrosis, or structural damage within the tissue.",
+        "There are moderate areas of degeneration, necrosis, or structural damage within the tissue.",
+        "There are few or almost no areas of degeneration, necrosis, or structural damage within the tissue.",
+
+        "Cells are densely arranged, with an orderly overall growth pattern.",
+        "Cells are moderately arranged, with a generally organized growth pattern.",
+        "Cells are sparsely arranged, with a disordered overall growth pattern.",
+
+        "Cells are widely and evenly distributed in relation to blood vessels or lymphatic structures.",
+        "Cells are moderately distributed in relation to blood vessels or lymphatic structures, with intermediate uniformity.",
+        "Cells are limited and unevenly distributed in relation to blood vessels or lymphatic structures."
+    ]
+}

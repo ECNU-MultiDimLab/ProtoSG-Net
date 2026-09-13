@@ -1,0 +1,13 @@
+{
+    "TCGA-NSCLC":
+    [
+        "The overall differentiation and maturity of cells within the tissue.",
+        "The spatial distribution and extent of tissue structures.",
+        "The clarity of tissue boundaries and their demarcation from surrounding structures.",
+        "Morphological characteristics of cell nuclei and cytoplasm, including size, shape, and staining.",
+        "The presence of cellular proliferation or active division within the tissue.",
+        "Areas of degeneration, necrosis, or structural damage within the tissue.",
+        "The arrangement of cells within the tissue and their overall growth patterns.",
+        "The distribution of cells in relation to blood vessels or lymphatic structures."
+    ]
+}
